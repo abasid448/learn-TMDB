@@ -1,6 +1,8 @@
 package com.refrence.hitflix
 
-import android.util.Log
+import com.refrence.hitflix.api.Api
+import com.refrence.hitflix.model.GetMoviesResponse
+import com.refrence.hitflix.model.Movie
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

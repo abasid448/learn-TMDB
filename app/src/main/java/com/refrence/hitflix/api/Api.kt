@@ -1,5 +1,6 @@
-package com.refrence.hitflix
+package com.refrence.hitflix.api
 
+import com.refrence.hitflix.model.GetMoviesResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query

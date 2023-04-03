@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.refrence.hitflix.adapter.MoviesAdapter
+import com.refrence.hitflix.model.Movie
 
 class MainActivity : AppCompatActivity() {
 
@@ -75,8 +77,8 @@ class MainActivity : AppCompatActivity() {
     private fun getPopularMovies(){
         MoviesRepository.getPopularMovies(
             popularMoviesPage,
-             ::onPopularMoviesFetched,
-             ::onError
+            ::onPopularMoviesFetched,
+            ::onError
         )
     }
     private fun getTopRatedMovies(){

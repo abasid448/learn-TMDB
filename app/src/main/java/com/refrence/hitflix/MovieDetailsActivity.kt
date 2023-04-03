@@ -7,6 +7,7 @@ import android.widget.RatingBar
 import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.CenterCrop
+import com.refrence.hitflix.R
 
 
 const val MOVIE_BACKDROP = "extra_movie_backdrop"
